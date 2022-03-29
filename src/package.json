@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "tailwindcss build -i ./resources/sass/app.scss -o ./public/css/app.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "postcss-cli": "^9.0.1"
+  }
+}
